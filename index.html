@@ -7,8 +7,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">   
 </head>
-
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -20,21 +20,33 @@
           <p class="mb-0">Donec sed odio dui. Nagnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
       </div> 
-    <div class="w-20 mx-auto px-5">
-      <h2 class="display-4">Profile</h2>
+    <div class="w-20 mx-auto">
+      <i class="fa-brands fa-linkedin fa-4x"></i>
+    </div>
+    <div class="w-20 mx-auto">
+      <i class="fa-brands fa-github fa-4x"></i>
     </div>  
-    <div class="w-20 mx-auto l-5">
-      <h2 class="display-4">Contact</h2>
-    </div>  
+    <div class="w-20 mx-auto">
+      <h2 class="display-9" data-toggle="popover"  onclick="copy_number()" data-placement="right" data-content="04 2144 1463" data-animation="true">
+        <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+      </h2>
+    </div>
+      <div class="w-20 mx-auto">
+        <h2><i class="fa-solid fa-envelope fa-2x"></i></h2>
+    </div>
+      
   </div>
 </div>
 </div>
 
 
 
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Projects</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -58,13 +70,29 @@
 
 
 <div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Covid and city matching for fun.
-    <img class="d-block w-50" src="assets\3-1.jpg" alt="Third slide">
-
+  <div class="container">
+    <div class="row">
+      <div class="w-50 mx-auto">Covid and city matching for fun.</div>
+    <div class="w-50 mx-auto"><img class="w-100" src="assets\3-1.jpg" alt="Third slide"></div>
+  </div>
   </div>
 </div>
 
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+      delay: { "show": 1000, "hide": 1500 },
+    trigger: 'click'
+    });   
+  });
+
+function copy_number() {
+    navigator.clipboard.writeText("0421441463");
+  alert("Number copied!");
+}
+
+// <h2 class="display-9" data-toggle="popover"  onclick="copytext()" data-placement="right" data-content="04 2144 1463" id="04 21441 463">
+</script>
 
 <!-- <p>
   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">

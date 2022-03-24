@@ -29,4 +29,14 @@ function contact() {
  document.getElementById("about").addEventListener('mousedown', about);
  document.getElementById("about").addEventListener('mouseup', about_clear);
 
- 
+ $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+ $(document).ready(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+
+  $('.btn').popover(animation)
+
+  $('.btn').tooltip(animation)
