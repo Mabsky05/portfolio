@@ -26,6 +26,21 @@
     background-color: white;
 }
 
+.revamp {
+    display: flex; 
+    flex: 1; min-width: 0; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.team_gen {
+    display: flex; 
+    flex: 1; min-width: 0; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 
 
