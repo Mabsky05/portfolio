@@ -32,7 +32,7 @@
       </h2>
     </div>
       <div class="w-20 mx-auto">
-        <a href = "mailto: grimdango@gmail.com"><h2><i class="fa-solid fa-envelope fa-2x"></i></h2></a>
+        <a href = "mailto: grimdango@gmail.com" target="_blank"><h2><i class="fa-solid fa-envelope fa-2x"></i></h2></a>
     </div>    
   </div>
 </div>
@@ -46,21 +46,21 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class="w-25">
-      <a class="nav-link btn btn-outline-secondary btn-lg revamp" role="button" data-toggle="dropdown" 
+      <a class="nav-link btn btn-outline-primary btn-lg revamp" role="button" data-toggle="dropdown" 
     data-target="#revamp" aria-expanded="false" aria-controls="collapseExample">Revamp</a>
   </div>
   <div class="w-25">
-    <a class="nav-link btn btn-outline-secondary btn-lg team_gen" role="button" data-toggle="dropdown" 
+    <a class="nav-link btn btn-outline-primary btn-lg team_gen" role="button" data-toggle="dropdown" 
     data-target="#team" aria-expanded="false" aria-controls="collapseExample">Team Generator</a>
   </div>
 
   <div class="w-25">
-      <a class="nav-link btn btn-outline-secondary btn-lg" role="button" data-toggle="dropdown" 
+      <a class="nav-link btn btn-outline-primary btn-lg" role="button" data-toggle="dropdown" 
     data-target="#day" aria-expanded="false" aria-controls="collapseExample">Day Planner</a>
   </div>
 
   <div class="w-25">
-    <a class="nav-link btn btn-outline-secondary btn-lg" role="button" data-toggle="dropdown" 
+    <a class="nav-link btn btn-outline-primary btn-lg" role="button" data-toggle="dropdown" 
     data-target="#weather" aria-expanded="false" aria-controls="collapseExample">Weather Dashboard</a>
   </div>
 </div>
@@ -70,13 +70,13 @@
 <div class="collapse" id="revamp">
   <div class="container">
     <div class="row align-items-center justify-content-start">
-      <div class="col-6 mx-auto">
+      <div class="col-xs-6 m1-2">
         <p>
          <a href="https://github.com/Mabsky05/revamp">Construction advice, anyone?</a><br>
          Check out solutions to those common issues around the house.
         Or login to give your own useful advice, through text and image posting.</p>
       </div>
-    <div class="col-6 h-100 my-auto mx-auto"><img src="assets\revamp.jpg" height="300" alt="Third slide"></div>
+    <div class="col-xs-6 my-auto mx-auto"><img class="mx-auto img-fluid" src="assets\revamp.jpg" height="300" alt="Third slide"></div>
   </div>
   </div>
 </div>
@@ -84,13 +84,13 @@
 <div class="collapse" id="team">
   <div class="container">
     <div class="row align-items-center justify-content-start">
-      <div class="col-6 mx-auto">
+      <div class="col-xs-6 m1-2">
         <p><a href="https://github.com/Mabsky05/team_gen">Build up the team.</a><br>
           Use prompts to build a Manager-Engineer-Intern group.
           Name, email, and Github links are generated for each member, and output in html.
         </p>
       </div>
-    <div class="col-6 h-100 my-auto mx-auto"><img src="assets\team_gen.jpg" height="300" alt="Third slide"></div>
+    <div class="col-xs-6 my-auto mx-auto"><img class="mx-auto img-fluid" src="assets\team_gen.jpg" height="300" alt="Third slide"></div>
   </div>
   </div>
 </div>
@@ -98,14 +98,14 @@
 <div class="collapse" id="day">
   <div class="container">
     <div class="row align-items-center justify-content-start">
-      <div class="col-6 mx-auto">
+      <div class="col-xs-6 ml-2">
         <p>
           <a href="https://github.com/Mabsky05/day_planner">Day planning made simple.</a><br>
           Time-based and color-coded for convenience. Date display, form input, and tickbox provided 
           to save and record tasks.
         </p>
       </div>
-    <div class="col-6 h-100 my-auto mx-auto"><img src="assets\day_plan.jpg" height="300" alt="Third slide"></div>
+    <div class="col-xs-6 my-auto mx-auto"><img class="mx-auto img-fluid"src="assets\day_plan.jpg" height="300" alt="Third slide"></div>
   </div>
   </div>
 </div>
@@ -115,14 +115,14 @@
 <div class="collapse" id="weather">
   <div class="container">
     <div class="row align-items-center justify-content-start">
-      <div class="col-6 mx-auto">
+      <div class="col-xs-6 ml-2">
         <p>
           <a href="https://github.com/Mabsky05/weather_dashboard">Rain or shine, anywhere, anytime.</a><br>
           Check out the weather in a city of your choice, over six days. 
           Data includes: Temperature in ° C (low mid high), humidity, wind speed and UV over six days. 
         </p>
       </div>
-    <div class="col-6 h-100 my-auto mx-auto"><img src="assets\weather.jpg" height="300" alt="Third slide"></div>
+    <div class="col-xs-6 my-auto mx-auto"><img class="mx-auto img-fluid" src="assets\weather.jpg" height="300" alt="Third slide"></div>
   </div>
   </div>
 </div>
@@ -130,63 +130,17 @@
 
 
 <script>
-// $(document).ready(function(){
-//     $('[data-toggle="popover"]').popover({
-//       delay: { "show": 1000, "hide": 1500 },
-//     trigger: 'click'
-//     });   
-//   });
 
 function copy_number() {
     navigator.clipboard.writeText("0421441463");
   alert("Number copied!");
 }
 
-// <h2 class="display-9" data-toggle="popover"  onclick="copytext()" data-placement="right" data-content="04 2144 1463" id="04 21441 463">
 </script>
 
-
-
-
-<!-- <p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p> -->
-
-
-
-
-
-    <!-- <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav> -->
-
+<!-- Your Github profile lacks an email and a link to your deployed portfolio, 
+while your LinkedIn profile lacks a strong bio statement 
+(only a short description included), 
+professional photo, and links to your GitHub profile and deployed portfolio. 
+Remember, the easier it is for potential future employers to find you and your work, 
+the more it benefits you, so be sure to include the missing details going forward. -->

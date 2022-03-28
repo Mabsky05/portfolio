@@ -26,6 +26,12 @@
     background-color: white;
 }
 
+.img-fluid {
+    max-height: 300px;
+}
+
+
+
 .revamp {
     display: flex; 
     flex: 1; min-width: 0; 
