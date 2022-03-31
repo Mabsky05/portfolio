@@ -1,31 +1,39 @@
 # Profile Page
 
-![alt text](assets/sample.jpg)
-![alt text](assets/sample.gif)
+![alt text](Assets/sample.jpg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Summary
-Profile page showcasing Github projects and professional credentials 
+About me, plus Github project showcase. 
 
-## Description / Instructions
-Upon loading: Site will show top navbar and center carousel. 
+## Description
+Basic website: Header contains links to Github, LinkedIn, mobile number and email.
 
-Navbar contents, left to right: Linked and Github links, About (click and display), Contact (click and reveal), drop for CV and folio.
+Clicking on Github and LinkedIn icons opens new tabs redirecting to websites. 
 
-Carousel, each slide navigated by arrow: Github project (click on photo), repo link (click on link). 
+Mobile number link creates copied text. 
+
+Email link creates email link (or prompt to email link) in new tab.
+
+Buttons below the navbar drops down projects. 
+
+Each project has a Github repo link and description. 
+
+Clicking on the project image will lead to that project website, if available. 
+
 
 ## Contact
 grimdango@gmail.com
 
 ## Log 
-### 04/02/22
-Major upload.
+### 31/03/22
+README updated. 
 
-### 31/01/22
-Core website elements laid out.  
+### 25-29/03/22
+Structuring and completion of website.   
 
-### 29/01/22
+### 24/03/22
 First commit. 
    
 
